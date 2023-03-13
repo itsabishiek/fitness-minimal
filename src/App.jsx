@@ -52,12 +52,28 @@ const App = () => {
       </div>
 
       <div className="actionBtn">
-        <span onClick={() => setMuscle("biceps")}>
+      <span onClick={() => setMuscle("biceps")}>
         biceps
         </span>
         <span onClick={() => setMuscle("hamstrings")}>hamstrings</span>
         <span onClick={() => setMuscle("chest")}>chest</span>
         <span onClick={() => setMuscle("triceps")}>triceps</span>
+
+        <span onClick={() => setMuscle("abdominals")}>
+        abdominals
+        </span>
+        <span onClick={() => setMuscle("calves")}>calves</span>
+        <span onClick={() => setMuscle("forearms")}>forearms</span>
+        <span onClick={() => setMuscle("lats")}>lats</span>
+
+        <span onClick={() => setMuscle("glutes")}>
+        glutes
+        </span>
+        <span onClick={() => setMuscle("lower_back")}>lower_back</span>
+        <span onClick={() => setMuscle("middle_back")}>middle_back</span>
+        <span onClick={() => setMuscle("neck")}>neck</span>
+
+        
       </div>
 
       {loading && (
